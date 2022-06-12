@@ -1,0 +1,13 @@
+{
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "github": {
+        "silent": true
+    },
+    "rewrites": [
+        {
+            "source": "/:video",
+            "destination": "/api"
+        }
+    ]
+}
