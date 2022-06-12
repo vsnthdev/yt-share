@@ -1,0 +1,20 @@
+{
+    "name": "yt-share",
+    "description": "Share YouTube 📹 videos with ✨ large thumbnails again.",
+    "version": "0.0.0",
+    "license": "Zlib",
+    "private": true,
+    "homepage": "https://github.com/vsnthdev/yt-share#readme",
+    "bugs": "https://github.com/vsnthdev/yt-share/issues",
+    "author": {
+        "name": "Vasanth Developer",
+        "email": "vasanth@vasanthdeveloper.com",
+        "url": "https://vsnth.dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vsnthdev/yt-share.git"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
