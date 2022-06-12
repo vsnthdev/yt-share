@@ -17,10 +17,9 @@
     },
     "dependencies": {
         "axios": "^0.27.2",
-        "open-graph-scraper": "^4.11.0"
+        "scrape-youtube": "^2.1.14"
     },
     "devDependencies": {
-        "@types/open-graph-scraper": "^4.8.1",
         "@vercel/frameworks": "^1.0.1",
         "@vercel/node": "^2.1.0",
         "typescript": "^4.7.3",
