@@ -16,8 +16,7 @@
         "url": "https://github.com/vsnthdev/yt-share.git"
     },
     "dependencies": {
-        "axios": "^0.27.2",
-        "scrape-youtube": "^2.1.14"
+        "axios": "^0.27.2"
     },
     "devDependencies": {
         "@vercel/frameworks": "^1.0.1",
