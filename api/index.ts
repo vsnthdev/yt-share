@@ -23,11 +23,17 @@ export default async (
         url: `https://www.youtube.com/watch?v=${video}`
     })
 
+    // grab all meta tags from YouTube's video page
     const meta = vid.match(/<meta[^>]+content="([^")]*)"/g) as string[]
 
+    // get both the title and description's values
     const title = meta.find(tag => tag.startsWith('<meta name="title" '))?.split('"')[3]
     const desc = meta.find(tag => tag.startsWith('<meta name="description" '))?.split('"')[3]
 
+    // cache it for 1 full week
+    res.setHeader('Cache-Control', 'public, max-age=604800, immutable')
+
+    // send a specially crafted HTML redirect response
     return res.send(`
     <!DOCTYPE html>
     <html lang="en">
